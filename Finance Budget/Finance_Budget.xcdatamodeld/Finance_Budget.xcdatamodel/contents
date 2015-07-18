@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="8118.20" systemVersion="15A204h" minimumToolsVersion="Xcode 4.3">
+    <entity name="Expense" representedClassName="Expense" syncable="YES">
+        <attribute name="amount" attributeType="Decimal" minValueString="0" defaultValueString="0.0" spotlightIndexingEnabled="YES" syncable="YES"/>
+        <attribute name="repeatInterval" optional="YES" attributeType="Integer 64" minValueString="0" defaultValueString="0" syncable="YES"/>
+        <attribute name="timestamp" optional="YES" attributeType="Date" spotlightIndexingEnabled="YES" syncable="YES"/>
+        <attribute name="transaction" attributeType="String" minValueString="1" spotlightIndexingEnabled="YES" syncable="YES"/>
+        <relationship name="category" maxCount="1" deletionRule="Deny" destinationEntity="FinanceCategory" inverseName="expenses" inverseEntity="FinanceCategory" spotlightIndexingEnabled="YES" syncable="YES"/>
+        <relationship name="repeatSpan" optional="YES" maxCount="1" deletionRule="Deny" destinationEntity="RepeatSpan" inverseName="expenses" inverseEntity="RepeatSpan" spotlightIndexingEnabled="YES" syncable="YES"/>
+    </entity>
+    <entity name="FinanceCategory" representedClassName="FinanceCategory" syncable="YES">
+        <attribute name="category" attributeType="String" minValueString="1" indexed="YES" spotlightIndexingEnabled="YES" syncable="YES"/>
+        <attribute name="expense" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="income" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <relationship name="expenses" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Expense" inverseName="category" inverseEntity="Expense" spotlightIndexingEnabled="YES" syncable="YES"/>
+        <relationship name="incomes" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Income" inverseName="category" inverseEntity="Income" spotlightIndexingEnabled="YES" syncable="YES"/>
+    </entity>
+    <entity name="Income" representedClassName="Income" syncable="YES">
+        <attribute name="amount" attributeType="Decimal" minValueString="0" defaultValueString="0.0" spotlightIndexingEnabled="YES" syncable="YES"/>
+        <attribute name="repeatInterval" optional="YES" attributeType="Integer 64" minValueString="0" defaultValueString="0" syncable="YES"/>
+        <attribute name="timestamp" attributeType="Date" spotlightIndexingEnabled="YES" syncable="YES"/>
+        <attribute name="transaction" attributeType="String" minValueString="1" spotlightIndexingEnabled="YES" syncable="YES"/>
+        <relationship name="category" maxCount="1" deletionRule="Deny" destinationEntity="FinanceCategory" inverseName="incomes" inverseEntity="FinanceCategory" spotlightIndexingEnabled="YES" syncable="YES"/>
+        <relationship name="repeatSpan" optional="YES" maxCount="1" deletionRule="Deny" destinationEntity="RepeatSpan" inverseName="incomes" inverseEntity="RepeatSpan" spotlightIndexingEnabled="YES" syncable="YES"/>
+    </entity>
+    <entity name="RepeatSpan" representedClassName="RepeatSpan" syncable="YES">
+        <attribute name="span" attributeType="String" minValueString="1" indexed="YES" syncable="YES"/>
+        <relationship name="expenses" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Expense" inverseName="repeatSpan" inverseEntity="Expense" spotlightIndexingEnabled="YES" syncable="YES"/>
+        <relationship name="incomes" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Income" inverseName="repeatSpan" inverseEntity="Income" spotlightIndexingEnabled="YES" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Expense" positionX="126" positionY="-153" width="128" height="135"/>
+        <element name="FinanceCategory" positionX="-72" positionY="-72" width="128" height="120"/>
+        <element name="Income" positionX="124" positionY="-0" width="128" height="135"/>
+        <element name="RepeatSpan" positionX="324" positionY="-45" width="128" height="90"/>
+    </elements>
+</model>

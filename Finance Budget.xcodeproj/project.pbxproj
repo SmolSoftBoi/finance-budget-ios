@@ -1,0 +1,851 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4819364A1B3CC70600BBB16E /* Finance_Budget.json in Resources */ = {isa = PBXBuildFile; fileRef = 481936491B3CC70600BBB16E /* Finance_Budget.json */; };
+		481936921B3D6E9A00BBB16E /* SettingsCurrencyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 481936911B3D6E9A00BBB16E /* SettingsCurrencyViewController.m */; };
+		481936961B3D706300BBB16E /* AddExpenseIncomeCategoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 481936951B3D706300BBB16E /* AddExpenseIncomeCategoryViewController.m */; };
+		481C98E21B45BA4B0042A975 /* SummaryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 481C98E11B45BA4B0042A975 /* SummaryViewController.m */; };
+		481C98E51B45C5150042A975 /* IncomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 481C98E41B45C5150042A975 /* IncomeViewController.m */; };
+		481C98E81B45DCF90042A975 /* IncomeHolder.m in Sources */ = {isa = PBXBuildFile; fileRef = 481C98E71B45DCF90042A975 /* IncomeHolder.m */; };
+		481CBD671B3087C700664A3B /* ExpensesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 481CBD661B3087C700664A3B /* ExpensesViewController.m */; };
+		48628D981B2C85A100F876FA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 48628D971B2C85A100F876FA /* main.m */; };
+		48628D9B1B2C85A100F876FA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 48628D9A1B2C85A100F876FA /* AppDelegate.m */; };
+		48628DA11B2C85A100F876FA /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48628DA01B2C85A100F876FA /* SettingsViewController.m */; };
+		48628DA41B2C85A100F876FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48628DA21B2C85A100F876FA /* Main.storyboard */; };
+		48628DA61B2C85A100F876FA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48628DA51B2C85A100F876FA /* Images.xcassets */; };
+		48628DA91B2C85A100F876FA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 48628DA71B2C85A100F876FA /* LaunchScreen.xib */; };
+		48628DB51B2C85A100F876FA /* Finance_BudgetTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 48628DB41B2C85A100F876FA /* Finance_BudgetTests.m */; };
+		48628DC01B2C8CFB00F876FA /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48628DBF1B2C8CFB00F876FA /* CloudKit.framework */; };
+		4867F5FC1B471D5200AD1699 /* CalculatorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4867F5FB1B471D5200AD1699 /* CalculatorViewController.m */; };
+		4867F5FF1B471D8600AD1699 /* CalculatorTapeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4867F5FE1B471D8600AD1699 /* CalculatorTapeViewController.m */; };
+		4867F6021B471DC800AD1699 /* CalculatorBrain.m in Sources */ = {isa = PBXBuildFile; fileRef = 4867F6011B471DC800AD1699 /* CalculatorBrain.m */; };
+		4867F6171B474A7100AD1699 /* SummaryRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4867F6161B474A7100AD1699 /* SummaryRootViewController.m */; };
+		4867F61A1B474C1C00AD1699 /* SummaryModelController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4867F6191B474C1C00AD1699 /* SummaryModelController.m */; };
+		4867F61D1B474CC600AD1699 /* SummaryDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4867F61C1B474CC600AD1699 /* SummaryDataViewController.m */; };
+		4868CF2D1B45A5030064D9E8 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4868CF2C1B45A5030064D9E8 /* Settings.bundle */; };
+		487556A31B444B7700FE9261 /* Splash.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 487556A21B444B7700FE9261 /* Splash.storyboard */; };
+		487556EF1B4483BA00FE9261 /* SplashRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 487556EE1B4483BA00FE9261 /* SplashRootViewController.m */; };
+		487556F21B448BD900FE9261 /* SplashModelController.m in Sources */ = {isa = PBXBuildFile; fileRef = 487556F11B448BD900FE9261 /* SplashModelController.m */; };
+		487556F51B448DFB00FE9261 /* SplashDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 487556F41B448DFB00FE9261 /* SplashDataViewController.m */; };
+		487556F81B44BDEF00FE9261 /* FinanceCategoryHolder.m in Sources */ = {isa = PBXBuildFile; fileRef = 487556F71B44BDEF00FE9261 /* FinanceCategoryHolder.m */; };
+		487556FB1B44C5A500FE9261 /* ExpenseHolder.m in Sources */ = {isa = PBXBuildFile; fileRef = 487556FA1B44C5A500FE9261 /* ExpenseHolder.m */; };
+		487556FE1B44C61000FE9261 /* RepeatSpanHolder.m in Sources */ = {isa = PBXBuildFile; fileRef = 487556FD1B44C61000FE9261 /* RepeatSpanHolder.m */; };
+		488509A31B41C7750081442F /* AddCategoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 488509A21B41C7750081442F /* AddCategoryViewController.m */; };
+		489C5DB21B2DD09100634B4D /* ExpensesIncomeMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 489C5DB11B2DD09100634B4D /* ExpensesIncomeMasterViewController.m */; };
+		489C5DB51B2DD3A300634B4D /* ExpensesIncomeDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 489C5DB41B2DD3A300634B4D /* ExpensesIncomeDetailViewController.m */; };
+		48A5136C1B46008000F649DB /* FBConsts.m in Sources */ = {isa = PBXBuildFile; fileRef = 48A5136B1B46008000F649DB /* FBConsts.m */; };
+		48A513751B46A05300F649DB /* Tab.m in Sources */ = {isa = PBXBuildFile; fileRef = 48A513741B46A05300F649DB /* Tab.m */; };
+		48A513781B46BB2E00F649DB /* ExpenseIncomeHolder.m in Sources */ = {isa = PBXBuildFile; fileRef = 48A513771B46BB2E00F649DB /* ExpenseIncomeHolder.m */; };
+		48A5137B1B46EC2C00F649DB /* Sort.m in Sources */ = {isa = PBXBuildFile; fileRef = 48A5137A1B46EC2C00F649DB /* Sort.m */; };
+		48A5137E1B46F54100F649DB /* SettingsSortViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48A5137D1B46F54100F649DB /* SettingsSortViewController.m */; };
+		48B047A41B4773D800ED8B74 /* SummaryWeekGraph.m in Sources */ = {isa = PBXBuildFile; fileRef = 48B047A31B4773D800ED8B74 /* SummaryWeekGraph.m */; };
+		48B5D2C51B48AD010097B3FA /* SummaryMonthGraph.m in Sources */ = {isa = PBXBuildFile; fileRef = 48B5D2C41B48AD010097B3FA /* SummaryMonthGraph.m */; };
+		48C879431B3D9ED000D553CF /* Finance_Budget.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 48C879411B3D9ED000D553CF /* Finance_Budget.xcdatamodeld */; };
+		48C879571B3D9F6100D553CF /* Income.m in Sources */ = {isa = PBXBuildFile; fileRef = 48C8794A1B3D9F6100D553CF /* Income.m */; };
+		48C879581B3D9F6100D553CF /* Expense.m in Sources */ = {isa = PBXBuildFile; fileRef = 48C8794D1B3D9F6100D553CF /* Expense.m */; };
+		48C879591B3D9F6100D553CF /* FinanceCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 48C879501B3D9F6100D553CF /* FinanceCategory.m */; };
+		48C8795A1B3D9F6100D553CF /* Currency.m in Sources */ = {isa = PBXBuildFile; fileRef = 48C879531B3D9F6100D553CF /* Currency.m */; };
+		48C8795B1B3D9F6100D553CF /* RepeatSpan.m in Sources */ = {isa = PBXBuildFile; fileRef = 48C879561B3D9F6100D553CF /* RepeatSpan.m */; };
+		48C879631B3E10FB00D553CF /* Settings.m in Sources */ = {isa = PBXBuildFile; fileRef = 48C879621B3E10FB00D553CF /* Settings.m */; };
+		48C8796B1B3F2EC700D553CF /* SettingsCategoriesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48C8796A1B3F2EC700D553CF /* SettingsCategoriesViewController.m */; };
+		48C8796E1B3F541E00D553CF /* SettingsCategoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48C8796D1B3F541E00D553CF /* SettingsCategoryViewController.m */; };
+		48EBD6111B35F59A008E5FD6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48EBD6101B35F59A008E5FD6 /* ViewController.m */; };
+		48EBD62F1B363FCA008E5FD6 /* AddExpenseIncomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48EBD62E1B363FCA008E5FD6 /* AddExpenseIncomeViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		48628DAF1B2C85A100F876FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 48628D8A1B2C85A100F876FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 48628D911B2C85A100F876FA;
+			remoteInfo = "Finance Budget";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		481936491B3CC70600BBB16E /* Finance_Budget.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Finance_Budget.json; sourceTree = "<group>"; };
+		481936901B3D6E9A00BBB16E /* SettingsCurrencyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsCurrencyViewController.h; sourceTree = "<group>"; };
+		481936911B3D6E9A00BBB16E /* SettingsCurrencyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsCurrencyViewController.m; sourceTree = "<group>"; };
+		481936941B3D706300BBB16E /* AddExpenseIncomeCategoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddExpenseIncomeCategoryViewController.h; sourceTree = "<group>"; };
+		481936951B3D706300BBB16E /* AddExpenseIncomeCategoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddExpenseIncomeCategoryViewController.m; sourceTree = "<group>"; };
+		481C98E01B45BA4B0042A975 /* SummaryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SummaryViewController.h; sourceTree = "<group>"; };
+		481C98E11B45BA4B0042A975 /* SummaryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SummaryViewController.m; sourceTree = "<group>"; };
+		481C98E31B45C5150042A975 /* IncomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IncomeViewController.h; sourceTree = "<group>"; };
+		481C98E41B45C5150042A975 /* IncomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IncomeViewController.m; sourceTree = "<group>"; };
+		481C98E61B45DCF90042A975 /* IncomeHolder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IncomeHolder.h; sourceTree = "<group>"; };
+		481C98E71B45DCF90042A975 /* IncomeHolder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IncomeHolder.m; sourceTree = "<group>"; };
+		481CBD651B3087C700664A3B /* ExpensesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExpensesViewController.h; sourceTree = "<group>"; };
+		481CBD661B3087C700664A3B /* ExpensesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExpensesViewController.m; sourceTree = "<group>"; };
+		48628D921B2C85A100F876FA /* Finance Budget.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Finance Budget.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		48628D961B2C85A100F876FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48628D971B2C85A100F876FA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		48628D991B2C85A100F876FA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		48628D9A1B2C85A100F876FA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		48628D9F1B2C85A100F876FA /* SettingsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		48628DA01B2C85A100F876FA /* SettingsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		48628DA31B2C85A100F876FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		48628DA51B2C85A100F876FA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		48628DA81B2C85A100F876FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		48628DAE1B2C85A100F876FA /* Finance BudgetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Finance BudgetTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		48628DB31B2C85A100F876FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48628DB41B2C85A100F876FA /* Finance_BudgetTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Finance_BudgetTests.m; sourceTree = "<group>"; };
+		48628DBE1B2C8CD900F876FA /* Finance Budget.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Finance Budget.entitlements"; sourceTree = "<group>"; };
+		48628DBF1B2C8CFB00F876FA /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
+		4867F5FA1B471D5200AD1699 /* CalculatorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalculatorViewController.h; sourceTree = "<group>"; };
+		4867F5FB1B471D5200AD1699 /* CalculatorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalculatorViewController.m; sourceTree = "<group>"; };
+		4867F5FD1B471D8600AD1699 /* CalculatorTapeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalculatorTapeViewController.h; sourceTree = "<group>"; };
+		4867F5FE1B471D8600AD1699 /* CalculatorTapeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalculatorTapeViewController.m; sourceTree = "<group>"; };
+		4867F6001B471DC800AD1699 /* CalculatorBrain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalculatorBrain.h; sourceTree = "<group>"; };
+		4867F6011B471DC800AD1699 /* CalculatorBrain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalculatorBrain.m; sourceTree = "<group>"; };
+		4867F6151B474A7100AD1699 /* SummaryRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SummaryRootViewController.h; sourceTree = "<group>"; };
+		4867F6161B474A7100AD1699 /* SummaryRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SummaryRootViewController.m; sourceTree = "<group>"; };
+		4867F6181B474C1C00AD1699 /* SummaryModelController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SummaryModelController.h; sourceTree = "<group>"; };
+		4867F6191B474C1C00AD1699 /* SummaryModelController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SummaryModelController.m; sourceTree = "<group>"; };
+		4867F61B1B474CC600AD1699 /* SummaryDataViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SummaryDataViewController.h; sourceTree = "<group>"; };
+		4867F61C1B474CC600AD1699 /* SummaryDataViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SummaryDataViewController.m; sourceTree = "<group>"; };
+		4868CF2C1B45A5030064D9E8 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		487556A21B444B7700FE9261 /* Splash.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Splash.storyboard; sourceTree = "<group>"; };
+		487556ED1B4483BA00FE9261 /* SplashRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SplashRootViewController.h; sourceTree = "<group>"; };
+		487556EE1B4483BA00FE9261 /* SplashRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SplashRootViewController.m; sourceTree = "<group>"; };
+		487556F01B448BD900FE9261 /* SplashModelController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SplashModelController.h; sourceTree = "<group>"; };
+		487556F11B448BD900FE9261 /* SplashModelController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SplashModelController.m; sourceTree = "<group>"; };
+		487556F31B448DFB00FE9261 /* SplashDataViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SplashDataViewController.h; sourceTree = "<group>"; };
+		487556F41B448DFB00FE9261 /* SplashDataViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SplashDataViewController.m; sourceTree = "<group>"; };
+		487556F61B44BDEF00FE9261 /* FinanceCategoryHolder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FinanceCategoryHolder.h; sourceTree = "<group>"; };
+		487556F71B44BDEF00FE9261 /* FinanceCategoryHolder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FinanceCategoryHolder.m; sourceTree = "<group>"; };
+		487556F91B44C5A500FE9261 /* ExpenseHolder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExpenseHolder.h; sourceTree = "<group>"; };
+		487556FA1B44C5A500FE9261 /* ExpenseHolder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExpenseHolder.m; sourceTree = "<group>"; };
+		487556FC1B44C61000FE9261 /* RepeatSpanHolder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RepeatSpanHolder.h; sourceTree = "<group>"; };
+		487556FD1B44C61000FE9261 /* RepeatSpanHolder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RepeatSpanHolder.m; sourceTree = "<group>"; };
+		488509A11B41C7750081442F /* AddCategoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddCategoryViewController.h; sourceTree = "<group>"; };
+		488509A21B41C7750081442F /* AddCategoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddCategoryViewController.m; sourceTree = "<group>"; };
+		489C5DB01B2DD09100634B4D /* ExpensesIncomeMasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExpensesIncomeMasterViewController.h; sourceTree = "<group>"; };
+		489C5DB11B2DD09100634B4D /* ExpensesIncomeMasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExpensesIncomeMasterViewController.m; sourceTree = "<group>"; };
+		489C5DB31B2DD3A300634B4D /* ExpensesIncomeDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExpensesIncomeDetailViewController.h; sourceTree = "<group>"; };
+		489C5DB41B2DD3A300634B4D /* ExpensesIncomeDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExpensesIncomeDetailViewController.m; sourceTree = "<group>"; };
+		48A5136A1B46006B00F649DB /* FBConsts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBConsts.h; sourceTree = "<group>"; };
+		48A5136B1B46008000F649DB /* FBConsts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBConsts.m; sourceTree = "<group>"; };
+		48A5136F1B46028C00F649DB /* FB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FB.h; sourceTree = "<group>"; };
+		48A513721B46046500F649DB /* FBTypes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBTypes.h; sourceTree = "<group>"; };
+		48A513731B46A05300F649DB /* Tab.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tab.h; sourceTree = "<group>"; };
+		48A513741B46A05300F649DB /* Tab.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tab.m; sourceTree = "<group>"; };
+		48A513761B46BB2E00F649DB /* ExpenseIncomeHolder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExpenseIncomeHolder.h; sourceTree = "<group>"; };
+		48A513771B46BB2E00F649DB /* ExpenseIncomeHolder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExpenseIncomeHolder.m; sourceTree = "<group>"; };
+		48A513791B46EC2C00F649DB /* Sort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sort.h; sourceTree = "<group>"; };
+		48A5137A1B46EC2C00F649DB /* Sort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Sort.m; sourceTree = "<group>"; };
+		48A5137C1B46F54100F649DB /* SettingsSortViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsSortViewController.h; sourceTree = "<group>"; };
+		48A5137D1B46F54100F649DB /* SettingsSortViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsSortViewController.m; sourceTree = "<group>"; };
+		48B047A21B4773D800ED8B74 /* SummaryWeekGraph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SummaryWeekGraph.h; sourceTree = "<group>"; };
+		48B047A31B4773D800ED8B74 /* SummaryWeekGraph.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SummaryWeekGraph.m; sourceTree = "<group>"; };
+		48B5D2C31B48AD010097B3FA /* SummaryMonthGraph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SummaryMonthGraph.h; sourceTree = "<group>"; };
+		48B5D2C41B48AD010097B3FA /* SummaryMonthGraph.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SummaryMonthGraph.m; sourceTree = "<group>"; };
+		48C879421B3D9ED000D553CF /* Finance_Budget.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Finance_Budget.xcdatamodel; sourceTree = "<group>"; };
+		48C879481B3D9F6100D553CF /* Income+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Income+CoreDataProperties.h"; sourceTree = "<group>"; };
+		48C879491B3D9F6100D553CF /* Income.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Income.h; sourceTree = "<group>"; };
+		48C8794A1B3D9F6100D553CF /* Income.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Income.m; sourceTree = "<group>"; };
+		48C8794B1B3D9F6100D553CF /* Expense+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Expense+CoreDataProperties.h"; sourceTree = "<group>"; };
+		48C8794C1B3D9F6100D553CF /* Expense.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Expense.h; sourceTree = "<group>"; };
+		48C8794D1B3D9F6100D553CF /* Expense.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Expense.m; sourceTree = "<group>"; };
+		48C8794E1B3D9F6100D553CF /* FinanceCategory+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FinanceCategory+CoreDataProperties.h"; sourceTree = "<group>"; };
+		48C8794F1B3D9F6100D553CF /* FinanceCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FinanceCategory.h; sourceTree = "<group>"; };
+		48C879501B3D9F6100D553CF /* FinanceCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FinanceCategory.m; sourceTree = "<group>"; };
+		48C879521B3D9F6100D553CF /* Currency.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Currency.h; sourceTree = "<group>"; };
+		48C879531B3D9F6100D553CF /* Currency.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Currency.m; sourceTree = "<group>"; };
+		48C879541B3D9F6100D553CF /* RepeatSpan+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RepeatSpan+CoreDataProperties.h"; sourceTree = "<group>"; };
+		48C879551B3D9F6100D553CF /* RepeatSpan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RepeatSpan.h; sourceTree = "<group>"; };
+		48C879561B3D9F6100D553CF /* RepeatSpan.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RepeatSpan.m; sourceTree = "<group>"; };
+		48C879611B3E10FB00D553CF /* Settings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Settings.h; sourceTree = "<group>"; };
+		48C879621B3E10FB00D553CF /* Settings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Settings.m; sourceTree = "<group>"; };
+		48C879691B3F2EC700D553CF /* SettingsCategoriesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsCategoriesViewController.h; sourceTree = "<group>"; };
+		48C8796A1B3F2EC700D553CF /* SettingsCategoriesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsCategoriesViewController.m; sourceTree = "<group>"; };
+		48C8796C1B3F541E00D553CF /* SettingsCategoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsCategoryViewController.h; sourceTree = "<group>"; };
+		48C8796D1B3F541E00D553CF /* SettingsCategoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsCategoryViewController.m; sourceTree = "<group>"; };
+		48EBD60F1B35F59A008E5FD6 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		48EBD6101B35F59A008E5FD6 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		48EBD62D1B363FCA008E5FD6 /* AddExpenseIncomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddExpenseIncomeViewController.h; sourceTree = "<group>"; };
+		48EBD62E1B363FCA008E5FD6 /* AddExpenseIncomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddExpenseIncomeViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		48628D8F1B2C85A100F876FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48628DC01B2C8CFB00F876FA /* CloudKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48628DAB1B2C85A100F876FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		481936931B3D703400BBB16E /* Add */ = {
+			isa = PBXGroup;
+			children = (
+				48EBD62D1B363FCA008E5FD6 /* AddExpenseIncomeViewController.h */,
+				48EBD62E1B363FCA008E5FD6 /* AddExpenseIncomeViewController.m */,
+				481936941B3D706300BBB16E /* AddExpenseIncomeCategoryViewController.h */,
+				481936951B3D706300BBB16E /* AddExpenseIncomeCategoryViewController.m */,
+			);
+			name = Add;
+			sourceTree = "<group>";
+		};
+		481936971B3D7C7300BBB16E /* Data Model */ = {
+			isa = PBXGroup;
+			children = (
+				48C8795E1B3D9F9F00D553CF /* Expense */,
+				48C8795D1B3D9F9200D553CF /* Category */,
+				48C8795F1B3D9FB100D553CF /* Income */,
+				48C879601B3D9FB600D553CF /* Repeat Span */,
+				48A513761B46BB2E00F649DB /* ExpenseIncomeHolder.h */,
+				48A513771B46BB2E00F649DB /* ExpenseIncomeHolder.m */,
+			);
+			name = "Data Model";
+			sourceTree = "<group>";
+		};
+		481C98DF1B45BA1E0042A975 /* Summary */ = {
+			isa = PBXGroup;
+			children = (
+				4867F6151B474A7100AD1699 /* SummaryRootViewController.h */,
+				4867F6161B474A7100AD1699 /* SummaryRootViewController.m */,
+				4867F61B1B474CC600AD1699 /* SummaryDataViewController.h */,
+				4867F61C1B474CC600AD1699 /* SummaryDataViewController.m */,
+				4867F6181B474C1C00AD1699 /* SummaryModelController.h */,
+				4867F6191B474C1C00AD1699 /* SummaryModelController.m */,
+				481C98E01B45BA4B0042A975 /* SummaryViewController.h */,
+				481C98E11B45BA4B0042A975 /* SummaryViewController.m */,
+				48B0479E1B4773B800ED8B74 /* Graphs */,
+			);
+			name = Summary;
+			sourceTree = "<group>";
+		};
+		48628D891B2C85A100F876FA = {
+			isa = PBXGroup;
+			children = (
+				48628DBF1B2C8CFB00F876FA /* CloudKit.framework */,
+				48628D941B2C85A100F876FA /* Finance Budget */,
+				48628DB11B2C85A100F876FA /* Finance BudgetTests */,
+				48628D931B2C85A100F876FA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		48628D931B2C85A100F876FA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				48628D921B2C85A100F876FA /* Finance Budget.app */,
+				48628DAE1B2C85A100F876FA /* Finance BudgetTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		48628D941B2C85A100F876FA /* Finance Budget */ = {
+			isa = PBXGroup;
+			children = (
+				48628DBE1B2C8CD900F876FA /* Finance Budget.entitlements */,
+				48628D991B2C85A100F876FA /* AppDelegate.h */,
+				48628D9A1B2C85A100F876FA /* AppDelegate.m */,
+				48EBD60F1B35F59A008E5FD6 /* ViewController.h */,
+				48EBD6101B35F59A008E5FD6 /* ViewController.m */,
+				487556A71B445F7200FE9261 /* Splash */,
+				481C98DF1B45BA1E0042A975 /* Summary */,
+				48FB1AA91B3AADF300AEC45C /* ExpensesIncome */,
+				48FB1AAA1B3AAE0300AEC45C /* Settings */,
+				48A5136E1B46015200F649DB /* FB */,
+				4867F5F71B471CAF00AD1699 /* Calculator */,
+				48C879611B3E10FB00D553CF /* Settings.h */,
+				48C879621B3E10FB00D553CF /* Settings.m */,
+				48C879521B3D9F6100D553CF /* Currency.h */,
+				48C879531B3D9F6100D553CF /* Currency.m */,
+				48A513791B46EC2C00F649DB /* Sort.h */,
+				48A5137A1B46EC2C00F649DB /* Sort.m */,
+				48A513731B46A05300F649DB /* Tab.h */,
+				48A513741B46A05300F649DB /* Tab.m */,
+				4868CF2C1B45A5030064D9E8 /* Settings.bundle */,
+				48628DA21B2C85A100F876FA /* Main.storyboard */,
+				487556A21B444B7700FE9261 /* Splash.storyboard */,
+				48C879411B3D9ED000D553CF /* Finance_Budget.xcdatamodeld */,
+				481936971B3D7C7300BBB16E /* Data Model */,
+				48628DA51B2C85A100F876FA /* Images.xcassets */,
+				48628DA71B2C85A100F876FA /* LaunchScreen.xib */,
+				481936491B3CC70600BBB16E /* Finance_Budget.json */,
+				48628D951B2C85A100F876FA /* Supporting Files */,
+			);
+			path = "Finance Budget";
+			sourceTree = "<group>";
+		};
+		48628D951B2C85A100F876FA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				48628D961B2C85A100F876FA /* Info.plist */,
+				48628D971B2C85A100F876FA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		48628DB11B2C85A100F876FA /* Finance BudgetTests */ = {
+			isa = PBXGroup;
+			children = (
+				48628DB41B2C85A100F876FA /* Finance_BudgetTests.m */,
+				48628DB21B2C85A100F876FA /* Supporting Files */,
+			);
+			path = "Finance BudgetTests";
+			sourceTree = "<group>";
+		};
+		48628DB21B2C85A100F876FA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				48628DB31B2C85A100F876FA /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4867F5F71B471CAF00AD1699 /* Calculator */ = {
+			isa = PBXGroup;
+			children = (
+				4867F5FA1B471D5200AD1699 /* CalculatorViewController.h */,
+				4867F5FB1B471D5200AD1699 /* CalculatorViewController.m */,
+				4867F5FD1B471D8600AD1699 /* CalculatorTapeViewController.h */,
+				4867F5FE1B471D8600AD1699 /* CalculatorTapeViewController.m */,
+				4867F6001B471DC800AD1699 /* CalculatorBrain.h */,
+				4867F6011B471DC800AD1699 /* CalculatorBrain.m */,
+			);
+			name = Calculator;
+			sourceTree = "<group>";
+		};
+		487556A71B445F7200FE9261 /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				487556ED1B4483BA00FE9261 /* SplashRootViewController.h */,
+				487556EE1B4483BA00FE9261 /* SplashRootViewController.m */,
+				487556F31B448DFB00FE9261 /* SplashDataViewController.h */,
+				487556F41B448DFB00FE9261 /* SplashDataViewController.m */,
+				487556F01B448BD900FE9261 /* SplashModelController.h */,
+				487556F11B448BD900FE9261 /* SplashModelController.m */,
+			);
+			name = Splash;
+			sourceTree = "<group>";
+		};
+		488509A41B41C77D0081442F /* Add */ = {
+			isa = PBXGroup;
+			children = (
+				488509A11B41C7750081442F /* AddCategoryViewController.h */,
+				488509A21B41C7750081442F /* AddCategoryViewController.m */,
+			);
+			name = Add;
+			sourceTree = "<group>";
+		};
+		48A5136E1B46015200F649DB /* FB */ = {
+			isa = PBXGroup;
+			children = (
+				48A5136F1B46028C00F649DB /* FB.h */,
+				48A5136A1B46006B00F649DB /* FBConsts.h */,
+				48A5136B1B46008000F649DB /* FBConsts.m */,
+				48A513721B46046500F649DB /* FBTypes.h */,
+			);
+			name = FB;
+			sourceTree = "<group>";
+		};
+		48B0479E1B4773B800ED8B74 /* Graphs */ = {
+			isa = PBXGroup;
+			children = (
+				48B047A21B4773D800ED8B74 /* SummaryWeekGraph.h */,
+				48B047A31B4773D800ED8B74 /* SummaryWeekGraph.m */,
+				48B5D2C31B48AD010097B3FA /* SummaryMonthGraph.h */,
+				48B5D2C41B48AD010097B3FA /* SummaryMonthGraph.m */,
+			);
+			name = Graphs;
+			sourceTree = "<group>";
+		};
+		48C8795D1B3D9F9200D553CF /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				48C8794E1B3D9F6100D553CF /* FinanceCategory+CoreDataProperties.h */,
+				48C8794F1B3D9F6100D553CF /* FinanceCategory.h */,
+				48C879501B3D9F6100D553CF /* FinanceCategory.m */,
+				487556F61B44BDEF00FE9261 /* FinanceCategoryHolder.h */,
+				487556F71B44BDEF00FE9261 /* FinanceCategoryHolder.m */,
+			);
+			name = Category;
+			sourceTree = "<group>";
+		};
+		48C8795E1B3D9F9F00D553CF /* Expense */ = {
+			isa = PBXGroup;
+			children = (
+				48C8794B1B3D9F6100D553CF /* Expense+CoreDataProperties.h */,
+				48C8794C1B3D9F6100D553CF /* Expense.h */,
+				48C8794D1B3D9F6100D553CF /* Expense.m */,
+				487556F91B44C5A500FE9261 /* ExpenseHolder.h */,
+				487556FA1B44C5A500FE9261 /* ExpenseHolder.m */,
+			);
+			name = Expense;
+			sourceTree = "<group>";
+		};
+		48C8795F1B3D9FB100D553CF /* Income */ = {
+			isa = PBXGroup;
+			children = (
+				48C879481B3D9F6100D553CF /* Income+CoreDataProperties.h */,
+				48C879491B3D9F6100D553CF /* Income.h */,
+				48C8794A1B3D9F6100D553CF /* Income.m */,
+				481C98E61B45DCF90042A975 /* IncomeHolder.h */,
+				481C98E71B45DCF90042A975 /* IncomeHolder.m */,
+			);
+			name = Income;
+			sourceTree = "<group>";
+		};
+		48C879601B3D9FB600D553CF /* Repeat Span */ = {
+			isa = PBXGroup;
+			children = (
+				48C879541B3D9F6100D553CF /* RepeatSpan+CoreDataProperties.h */,
+				48C879551B3D9F6100D553CF /* RepeatSpan.h */,
+				48C879561B3D9F6100D553CF /* RepeatSpan.m */,
+				487556FC1B44C61000FE9261 /* RepeatSpanHolder.h */,
+				487556FD1B44C61000FE9261 /* RepeatSpanHolder.m */,
+			);
+			name = "Repeat Span";
+			sourceTree = "<group>";
+		};
+		48FB1AA91B3AADF300AEC45C /* ExpensesIncome */ = {
+			isa = PBXGroup;
+			children = (
+				481CBD651B3087C700664A3B /* ExpensesViewController.h */,
+				481CBD661B3087C700664A3B /* ExpensesViewController.m */,
+				481C98E31B45C5150042A975 /* IncomeViewController.h */,
+				481C98E41B45C5150042A975 /* IncomeViewController.m */,
+				489C5DB01B2DD09100634B4D /* ExpensesIncomeMasterViewController.h */,
+				489C5DB11B2DD09100634B4D /* ExpensesIncomeMasterViewController.m */,
+				489C5DB31B2DD3A300634B4D /* ExpensesIncomeDetailViewController.h */,
+				489C5DB41B2DD3A300634B4D /* ExpensesIncomeDetailViewController.m */,
+				481936931B3D703400BBB16E /* Add */,
+			);
+			name = ExpensesIncome;
+			sourceTree = "<group>";
+		};
+		48FB1AAA1B3AAE0300AEC45C /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				48628D9F1B2C85A100F876FA /* SettingsViewController.h */,
+				48628DA01B2C85A100F876FA /* SettingsViewController.m */,
+				481936901B3D6E9A00BBB16E /* SettingsCurrencyViewController.h */,
+				481936911B3D6E9A00BBB16E /* SettingsCurrencyViewController.m */,
+				48C879691B3F2EC700D553CF /* SettingsCategoriesViewController.h */,
+				48C8796A1B3F2EC700D553CF /* SettingsCategoriesViewController.m */,
+				48C8796C1B3F541E00D553CF /* SettingsCategoryViewController.h */,
+				48C8796D1B3F541E00D553CF /* SettingsCategoryViewController.m */,
+				48A5137C1B46F54100F649DB /* SettingsSortViewController.h */,
+				48A5137D1B46F54100F649DB /* SettingsSortViewController.m */,
+				488509A41B41C77D0081442F /* Add */,
+			);
+			name = Settings;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		48628D911B2C85A100F876FA /* Finance Budget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48628DB81B2C85A100F876FA /* Build configuration list for PBXNativeTarget "Finance Budget" */;
+			buildPhases = (
+				48628D8E1B2C85A100F876FA /* Sources */,
+				48628D8F1B2C85A100F876FA /* Frameworks */,
+				48628D901B2C85A100F876FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Finance Budget";
+			productName = "Finance Budget";
+			productReference = 48628D921B2C85A100F876FA /* Finance Budget.app */;
+			productType = "com.apple.product-type.application";
+		};
+		48628DAD1B2C85A100F876FA /* Finance BudgetTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48628DBB1B2C85A100F876FA /* Build configuration list for PBXNativeTarget "Finance BudgetTests" */;
+			buildPhases = (
+				48628DAA1B2C85A100F876FA /* Sources */,
+				48628DAB1B2C85A100F876FA /* Frameworks */,
+				48628DAC1B2C85A100F876FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				48628DB01B2C85A100F876FA /* PBXTargetDependency */,
+			);
+			name = "Finance BudgetTests";
+			productName = "Finance BudgetTests";
+			productReference = 48628DAE1B2C85A100F876FA /* Finance BudgetTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		48628D8A1B2C85A100F876FA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Kristian Matthews";
+				TargetAttributes = {
+					48628D911B2C85A100F876FA = {
+						CreatedOnToolsVersion = 6.3.2;
+						DevelopmentTeam = 34WUKQBXXH;
+						SystemCapabilities = {
+							com.apple.DataProtection = {
+								enabled = 1;
+							};
+							com.apple.iCloud = {
+								enabled = 1;
+							};
+						};
+					};
+					48628DAD1B2C85A100F876FA = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 48628D911B2C85A100F876FA;
+					};
+				};
+			};
+			buildConfigurationList = 48628D8D1B2C85A100F876FA /* Build configuration list for PBXProject "Finance Budget" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 48628D891B2C85A100F876FA;
+			productRefGroup = 48628D931B2C85A100F876FA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				48628D911B2C85A100F876FA /* Finance Budget */,
+				48628DAD1B2C85A100F876FA /* Finance BudgetTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		48628D901B2C85A100F876FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48628DA41B2C85A100F876FA /* Main.storyboard in Resources */,
+				48628DA91B2C85A100F876FA /* LaunchScreen.xib in Resources */,
+				4819364A1B3CC70600BBB16E /* Finance_Budget.json in Resources */,
+				48628DA61B2C85A100F876FA /* Images.xcassets in Resources */,
+				4868CF2D1B45A5030064D9E8 /* Settings.bundle in Resources */,
+				487556A31B444B7700FE9261 /* Splash.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48628DAC1B2C85A100F876FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		48628D8E1B2C85A100F876FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				489C5DB51B2DD3A300634B4D /* ExpensesIncomeDetailViewController.m in Sources */,
+				487556F51B448DFB00FE9261 /* SplashDataViewController.m in Sources */,
+				48EBD62F1B363FCA008E5FD6 /* AddExpenseIncomeViewController.m in Sources */,
+				48A5137B1B46EC2C00F649DB /* Sort.m in Sources */,
+				481C98E51B45C5150042A975 /* IncomeViewController.m in Sources */,
+				48EBD6111B35F59A008E5FD6 /* ViewController.m in Sources */,
+				48B047A41B4773D800ED8B74 /* SummaryWeekGraph.m in Sources */,
+				48628DA11B2C85A100F876FA /* SettingsViewController.m in Sources */,
+				48C879431B3D9ED000D553CF /* Finance_Budget.xcdatamodeld in Sources */,
+				481CBD671B3087C700664A3B /* ExpensesViewController.m in Sources */,
+				487556FB1B44C5A500FE9261 /* ExpenseHolder.m in Sources */,
+				48C8796E1B3F541E00D553CF /* SettingsCategoryViewController.m in Sources */,
+				489C5DB21B2DD09100634B4D /* ExpensesIncomeMasterViewController.m in Sources */,
+				48A5136C1B46008000F649DB /* FBConsts.m in Sources */,
+				488509A31B41C7750081442F /* AddCategoryViewController.m in Sources */,
+				481C98E21B45BA4B0042A975 /* SummaryViewController.m in Sources */,
+				487556F81B44BDEF00FE9261 /* FinanceCategoryHolder.m in Sources */,
+				48628D9B1B2C85A100F876FA /* AppDelegate.m in Sources */,
+				48C879581B3D9F6100D553CF /* Expense.m in Sources */,
+				48628D981B2C85A100F876FA /* main.m in Sources */,
+				48C879631B3E10FB00D553CF /* Settings.m in Sources */,
+				4867F5FF1B471D8600AD1699 /* CalculatorTapeViewController.m in Sources */,
+				48C8795B1B3D9F6100D553CF /* RepeatSpan.m in Sources */,
+				48C879591B3D9F6100D553CF /* FinanceCategory.m in Sources */,
+				4867F6171B474A7100AD1699 /* SummaryRootViewController.m in Sources */,
+				481936961B3D706300BBB16E /* AddExpenseIncomeCategoryViewController.m in Sources */,
+				48C879571B3D9F6100D553CF /* Income.m in Sources */,
+				481936921B3D6E9A00BBB16E /* SettingsCurrencyViewController.m in Sources */,
+				4867F61A1B474C1C00AD1699 /* SummaryModelController.m in Sources */,
+				487556F21B448BD900FE9261 /* SplashModelController.m in Sources */,
+				4867F6021B471DC800AD1699 /* CalculatorBrain.m in Sources */,
+				481C98E81B45DCF90042A975 /* IncomeHolder.m in Sources */,
+				4867F5FC1B471D5200AD1699 /* CalculatorViewController.m in Sources */,
+				48A513751B46A05300F649DB /* Tab.m in Sources */,
+				48C8795A1B3D9F6100D553CF /* Currency.m in Sources */,
+				48C8796B1B3F2EC700D553CF /* SettingsCategoriesViewController.m in Sources */,
+				48B5D2C51B48AD010097B3FA /* SummaryMonthGraph.m in Sources */,
+				48A513781B46BB2E00F649DB /* ExpenseIncomeHolder.m in Sources */,
+				487556FE1B44C61000FE9261 /* RepeatSpanHolder.m in Sources */,
+				4867F61D1B474CC600AD1699 /* SummaryDataViewController.m in Sources */,
+				487556EF1B4483BA00FE9261 /* SplashRootViewController.m in Sources */,
+				48A5137E1B46F54100F649DB /* SettingsSortViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48628DAA1B2C85A100F876FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48628DB51B2C85A100F876FA /* Finance_BudgetTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		48628DB01B2C85A100F876FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 48628D911B2C85A100F876FA /* Finance Budget */;
+			targetProxy = 48628DAF1B2C85A100F876FA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		48628DA21B2C85A100F876FA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				48628DA31B2C85A100F876FA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		48628DA71B2C85A100F876FA /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				48628DA81B2C85A100F876FA /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		48628DB61B2C85A100F876FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = "";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		48628DB71B2C85A100F876FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_VERSION = "";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		48628DB91B2C85A100F876FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Finance Budget/Finance Budget.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Finance Budget/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kristianmatthews.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		48628DBA1B2C85A100F876FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Finance Budget/Finance Budget.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PREFIX_HEADER = FBPrefixHeader_pch;
+				INFOPLIST_FILE = "Finance Budget/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kristianmatthews.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		48628DBC1B2C85A100F876FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Finance BudgetTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kristianmatthews.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Finance Budget.app/Finance Budget";
+			};
+			name = Debug;
+		};
+		48628DBD1B2C85A100F876FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Finance BudgetTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kristianmatthews.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Finance Budget.app/Finance Budget";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		48628D8D1B2C85A100F876FA /* Build configuration list for PBXProject "Finance Budget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48628DB61B2C85A100F876FA /* Debug */,
+				48628DB71B2C85A100F876FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48628DB81B2C85A100F876FA /* Build configuration list for PBXNativeTarget "Finance Budget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48628DB91B2C85A100F876FA /* Debug */,
+				48628DBA1B2C85A100F876FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48628DBB1B2C85A100F876FA /* Build configuration list for PBXNativeTarget "Finance BudgetTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48628DBC1B2C85A100F876FA /* Debug */,
+				48628DBD1B2C85A100F876FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		48C879411B3D9ED000D553CF /* Finance_Budget.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				48C879421B3D9ED000D553CF /* Finance_Budget.xcdatamodel */,
+			);
+			currentVersion = 48C879421B3D9ED000D553CF /* Finance_Budget.xcdatamodel */;
+			path = Finance_Budget.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 48628D8A1B2C85A100F876FA /* Project object */;
+}
